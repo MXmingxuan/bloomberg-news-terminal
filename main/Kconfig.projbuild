@@ -1,0 +1,16 @@
+menu "财经快讯终端"
+
+config NEWS_WIFI_SSID
+    string "Wi-Fi 名称（SSID）"
+    default ""
+    help
+        Used only when the device has no Wi-Fi credentials stored in NVS.
+        Leave blank to use credentials already saved on the device.
+
+config NEWS_WIFI_PASSWORD
+    string "Wi-Fi 密码"
+    default ""
+    help
+        Used with the SSID above when the device has no saved Wi-Fi credentials.
+
+endmenu

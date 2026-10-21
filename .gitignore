@@ -1,0 +1,10 @@
+/build/
+/managed_components/
+/sdkconfig
+/sdkconfig.old
+*.elf
+*.bin
+*.map
+*.flash_args
+*.merged.bin
+.DS_Store
